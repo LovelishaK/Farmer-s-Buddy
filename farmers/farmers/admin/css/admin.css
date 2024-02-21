@@ -1,0 +1,320 @@
+/*-----------------------------------------------------------------
+	Brainofast Technologies, www.brainofast.com 2010 (INDIA)
+						Admin CSS
+-----------------------------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-family: Arial;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-weight:inherit;padding:1px;font-size: 11px;}
+legend{font-size:14px;color:#E82F3F;background:#FFF;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+td,th{padding:4px;}
+p{margin:7px;}
+/*---------------- HTML ------------------------------------------- */
+body{
+	margin:0;
+	padding:0;
+	color:#111;
+	background-color:#fff;
+  	font-family:Tahoma,Helvetica,Arial,sans-serif;
+	font-size:11px; 
+	line-height:16px;
+	font-weight:normal;
+}
+img, a img, a{
+	border:0;
+	background:none;
+	text-decoration:none;
+}
+select,option{
+	padding-left:2px;
+}
+a:link, a:active, a:visited {
+	background:transparent;
+	color:#069;
+	text-decoration:none;
+}
+a:hover {
+	background:transparent;
+}
+ul,p{
+	margin:0;
+	padding:0;
+}
+.cb{clear:both;}
+.spacer{
+	height:15px;
+	clear:both;
+	width:100%;
+}
+/*================== CONTAINERS ================ */
+#container{
+	padding:10px;
+}
+#header{
+	min-height:50px;
+}
+#middle{
+	margin:10px 0;
+	min-height:290px;
+}
+#middle #left{
+	float:left;
+	width:16%;
+	margin:0 8px 0 0;
+	min-height:150px;
+}
+#middle #center{
+	width:100%;
+	min-height:150px;
+	position:relative;
+}
+#footer{
+	min-height:50px;
+}
+/*================== Header Section ================ */
+#logo_welcome{
+	margin:0 0 10px 0;
+}
+.logo{
+	float:left;
+	padding:0 0 0 20px;
+}
+.welcome{
+	float:right;
+	margin:0 10px 0 0;
+	border:1px solid #CCCCCC;
+	-moz-border-radius:3px;
+}
+.welcome_inner{
+	padding:7px;
+}
+.sub_header{
+	height:25px;
+	-moz-border-radius:3px;
+	background-color:#0D83DD;
+}
+.sub_header .left {
+	float:left;
+	padding:2px 0 0 9px;
+}
+.sub_header .left li{
+	color:#fff;
+	font-family: arial;
+	font-weight:bold;
+	font-size: 13px;
+}
+.sub_header .right {
+	float:right;
+	padding:3px 0 0 9px;
+}
+/*=================== Left Part ===================*/
+#accordion1{
+	padding:0 10px;
+	font-size: 12px;
+}
+#accordion1 li{
+	height:24px;
+	border-bottom: 1px dashed #dedede;
+}
+#accordion1 li:hover{
+	background-color: #eee;
+}
+#accordion1 li a{
+	display:block;
+}
+#accordion1 li a:hover{
+	color:#000;
+}
+/*=================== Center ===================*/
+.content{
+	min-height:270px;
+	padding:7px;
+}
+.content_inner{
+	padding:0 7px 10px;
+}
+.contents{
+	min-height:230px;
+	padding:7px;
+}
+.content_top{
+	width:100%;
+}
+.content_bottom{
+	float:left;
+	width:99.7%;
+	min-height:100px;
+	border: 1px solid #dedede;
+}
+h3.head{
+	color:#fff;
+	font-weight:bold;
+	padding:1px 0 0 0;
+	line-height:22px;
+}
+.tabs_here{
+	padding:7px 3px;
+}
+.tabs_here li{
+	float:left;
+	width:98px;
+	margin:0 0 10px 10px;
+	text-align:center;
+	border:1px solid #fff;
+	height:85px;
+	padding:2px;
+}
+.tabs_here li:hover{
+	border:1px solid #DADADA;
+}
+/*=================== footer ===================*/
+.bottom_links{
+	padding:5px 0;
+	margin:5px 0 0;
+	text-align:center;
+}
+.bottom_links ul{
+	overflow:hidden;
+	margin:8px 0 0 0;
+}
+.bottom_links ul li{
+	display:inline;
+	border:#666 solid;
+	border-width:0 1px 0 0;
+	padding:0 5px 0 3px;
+}
+.bottom_links ul li.last{
+	border:medium none;
+}
+.bottom_links ul li a{
+	color:#005C9C;
+	text-decoration:none;
+}
+.bottom_links ul li a:hover{
+	text-decoration:underline;
+}
+.pointer{
+	cursor:pointer;
+}
+.manage_Ac .ui-state-default{
+	background:#888;
+	color:#fff;
+	padding:4px;
+	border: 1px solid #666;
+}
+.manage_Ac .ui-state-default:hover{
+	background:#0D83DD;
+	color:#fff;
+	padding:4px;
+	border: 1px solid #666;
+}
+.manage_Ac .ui-state-default span{
+	display:none;
+}
+.manage_Ac .ui-state-active {
+	background:#218EE2;
+	border: 1px solid #dedede;
+	padding:4px;
+	color:#fff;
+}
+.manage_Ac .ui-state-active  span{
+	display:none;
+}
+.grapdiv{
+	width:452px;
+	margin:10px auto;
+	padding:5px;
+	border: 1px solid #dedede;
+}
+.chartdimy .tilegr{
+	font-weight:bold;
+	padding:0 0 5px 0;
+}
+.grapdiv .tilegr{
+	font-weight:bold;
+	padding:0 0 5px 0;
+}
+.fromdateotdat{
+	float:left;
+	width:450px;
+	padding:0 10px 15px 10px;
+}
+.chartdimy{
+	float:left;
+	width:452px;
+	margin:10px auto;
+	padding:5px;
+	border: 1px solid #dedede;
+}
+.slecdadk{
+	font-weight:bold;
+	padding:0 0 3px 0;
+	border-bottom: 1px solid #dedede;
+	margin-bottom:5px;
+}
+.innerscrolldiv{
+	min-height:450px;
+	padding:3px;
+}
+.backbut-top{
+	position:absolute;
+	top:2%;
+	right:1%;
+	cursor:pointer;
+	color:#fff;
+	font-weight:bold;
+	font-size: 13px;
+	font-family: arial;
+}
+.backbut-top:hover{
+	text-decoration:underline;
+	color:#f6ff00;
+}
+.ui-widget{
+	font-family: Tahoma,Helvetica,Arial,sans-serif !important;
+}
+.manage_Ac .ui-corner-all{
+	-moz-border-radius:0 !important;
+}
+.manage_Ac .ui-corner-top,.ui-corner-bottom {
+	-moz-border-radius:0 !important;
+}
+.page_div{
+	margin:5px;
+	overflow:hidden;
+	padding:5px 0;
+}
+.select_page_no span.currentStyle{
+	font-weight:bold;
+	font-family: Arial;
+	padding:2px 5px;
+	border: 1px solid #dedede;
+	background-color: #f1f0f0;
+	font-size: 12px;
+	margin:0 3px;
+}
+.select_page_no a{
+	margin:0 3px;
+}
+
+.table-comm tr:nth-child(odd)
+{
+	background-color:lightblue;
+}
+.table-comm tr:nth-child(even)
+{
+	background-color:lightgray;
+}
+.disabledRow
+{
+	background-color: gray;
+}

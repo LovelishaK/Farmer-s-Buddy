@@ -1,0 +1,31 @@
+.add-newlocation{
+	margin:0 0 0 25px;
+	float:left;
+	width:315px;
+}
+.add-newlocation-ul li{
+	margin:10px 0 15px 0;
+}
+.add-newlocation-ul .lable{
+	color:#404040;
+	padding:0 0 5px 0;
+	float:left;
+	width:150px;
+}
+.add-newlocation-ul .value{
+	font-weight:bold;
+	float:left;
+	color:#333;
+}
+#location_map {
+background-color:#E5E3DF;
+height:300px;
+position:relative;
+width:400px;
+float:left;
+border: 2px solid #dedede;
+}
+.map-con-loc{
+	float:left;
+	padding:10px 0 0 0;
+}

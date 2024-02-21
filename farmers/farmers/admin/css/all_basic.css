@@ -1,0 +1,201 @@
+/* -----------------------------------------------------------------
+	Brainofast Technologies, www.brainofast.com 2010 (INDIA)
+----------------------------------------------------------------- */
+.msg_success{
+	width:auto 0;
+	padding:11px 5px 7px 37px;
+	font-size:13px;
+	color:#036c00;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#EFFFD6 url(../images/sucess.png) no-repeat scroll 5px 6px;
+}
+.msg_error{
+	width:auto 0;
+	padding:9px 5px 7px 37px;
+	font-size:13px;
+	color:#ff0000;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#ffeff9 url(../images/error_icon.png) no-repeat scroll 5px 6px;
+}
+.msg_errormultsm{
+	width:auto 0;
+	padding:11px 5px 7px 37px;
+	font-size:13px;
+	color:#ff0000;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#ffeff9 url(../images/error_icon.png) no-repeat scroll 5px 13px;
+}
+.msg_errormult{
+	width:auto 0;
+	padding:11px 5px 7px 37px;
+	font-size:13px;
+	color:#ff0000;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#ffeff9 url(../images/error_icon.png) no-repeat scroll 5px 13px;
+}
+.msg_error_new{
+	padding:10px 0;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	top:0;
+	left:0;
+	font-family: Arial;
+	text-align:center;
+	background:none repeat scroll 0 0 #FFFF90;
+	border:1px solid #DDDDDD;
+	z-index:99;
+	margin-bottom:5px;
+}
+.warning_inner{
+	background:url("../images/warning.png") no-repeat scroll 20px 50% transparent;
+	margin:0 auto;
+}
+.location_count_message{
+	
+}
+/* ---------------- Data Not Found Massages ---------------- */
+.msg_no_data_found{
+	width:auto 0;
+	padding:10px 5px 7px 37px;
+	font-size:13px;
+	color:#000;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#ffeff9 url(../images/alerticon.png) no-repeat scroll 5px 4px;
+}
+/* ----------------  validation Massages ---------------- */
+.validate_error{
+	overflow:hidden;
+	font-size: 10px;
+	color:red;
+	padding:2px 0;
+}
+/* ---------------- Heading ---------------- */
+h1 {font-size: 18px;color:#282828;font-family: tahoma;}
+h2 {font-size: 15px;}
+h3 {font-size: 13px;}
+h4 {font-size: 11px;}
+h5 {font-size: 10px;}
+h6 {font-size: 8px;}
+/* ---------------- Input, select, textarea,lable Box ---------------- */
+input.error,select.error,textarea.error{	border: 1px solid red;}
+input#affiliate_iagree{	border:0 !important;}
+div.error{color:red;}
+
+/* ---------------- Align ---------------- */
+.txtac{text-align:center;}
+.txtar{text-align:right;}
+/* ---------------- Width n Height ---------------- */
+.w10{width:10px;}
+.w80{width:80px;}
+.w87{width:87px;}
+.w100{width:100px;}
+.w103{width:103px;}
+.w110{width:110px;}
+.w114{width:114px;}
+.w115{width:115px;}
+.w128{width:128px;}
+.w130{width:130px;}
+.w140{width:140px;}
+.w145{width:145px;}
+.w150{width:150px;}
+.w170{width:170px;}
+.w175{width:175px;}
+.w178{width:178px;}
+.w180{width:180px;}
+.w194{width:194px;}
+.w200{width:200px;}
+.w212{width:212px;}
+.w225{width:225px;}
+.w255{width:255px;}
+.w270{width:270px;}
+.w300{width:300px;}
+.w328{width:328px;}
+.w337{width:337px;}
+.w370{width:370px;}
+.w380{width:380px;}
+.w390{width:390px;}
+.w394{width:394px;}
+.w500{width:500px;}
+.w580{width:580px;}
+
+.h10{height:10px;}
+
+/* ---------------- Clear Both ---------------- */
+.cb{clear:both;}
+/* ---------------- Float ---------------- */
+.fl{float:left;}
+.fr{float:right;}
+.pad5{padding:5px;}
+/* ---------------- Cursor Pointer ---------------- */
+.cursor{cursor:pointer;}
+input.common_txt{
+	background:#fff url(../images/txt_bg_bot.jpg) repeat-x bottom;
+	border: 1px solid #dadada;
+	height:19px;
+	font-size:15px;
+	padding:5px;
+}
+select.common_txt{
+	background:#fff url(../images/txt_bg_bot.jpg) repeat-x bottom;
+	border: 1px solid #dadada;
+	height:31px;
+	font-size:15px;
+	padding:5px;
+}
+textarea.common_txt{
+	border: 1px solid #dadada;
+	font-size:15px;
+	padding:5px;
+}
+input.common_but{
+	background:url(../images/blank_button.png) no-repeat;
+	color:#fff;
+	font-family: arial,tahoma;
+	font-size: 17px;
+	font-weight:bold;
+	border:0;
+	width:111px;
+	height:34px;
+	margin-top:5px;
+	text-align:center;
+	cursor:pointer;
+}
+div.tip-div{
+	color:#7f7f7f;
+	font-size: 11px;
+	padding-top:5px;
+}
+.msg_errormult .errorhead .errortxt{
+	float:left;
+	width:400px;
+	padding:7px 0;
+}
+.msg_errormult .errorhead .errortxt{
+	float:left;
+	width:400px;
+	padding:7px 0;
+}
+.msg_errormultsm .errorhead .errortxt{
+	float:left;
+	width:300px;
+	padding:7px 0;
+}
+.errorhead .errortxt{
+	padding-bottom:5px;
+}
+.innerscrolldiv table tr td{
+	width:25%;
+	text-align:center;
+}
+}

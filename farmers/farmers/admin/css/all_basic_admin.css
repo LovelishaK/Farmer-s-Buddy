@@ -1,0 +1,290 @@
+/* -----------------------------------------------------------------
+ Brainofast Technologies, www.brainofast.com 2010 (INDIA)
+ ----------------------------------------------------------------- */
+.msg_success{
+	width:auto 0;
+	padding:7px 5px 7px 30px;
+	font-size:13px;
+	font-weight:bold;
+	color:#036c00;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#EFFFD6 url(../images/sucess.png) no-repeat left;
+}
+.msg_error{
+	width:auto 0;
+	padding:7px 5px 7px 30px;
+	font-size:13px;
+	font-weight:bold;
+	color:#ff0000;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #dedede;
+	background:#fffe8f url(../images/error_icon.png) no-repeat left;
+}
+/* ---------------- Data Not Found Massages ---------------- */
+.msg_no_data_found{
+	overflow:hidden;
+	text-align:center;
+	padding:5px;
+	font-weight:bold;
+	color:#000;
+}
+/* ----------------  validation Massages ---------------- */
+.validate_error{
+	overflow:hidden;
+	font-size: 10px;
+	color:red;
+	padding:2px 0;
+}
+/* ---------------- Heading ---------------- */
+h1 {font-size: 18px;color:#000;}
+h2 {font-size: 15px;}
+h3 {font-size: 13px;}
+h4 {font-size: 11px;}
+h5 {font-size: 10px;}
+h6 {font-size: 8px;}
+/* ---------------- Input, select, textarea,lable Box ---------------- */
+input.error,select.error,textarea.error{	border: 1px solid red;}
+label.error{color:red;}
+
+
+/* ---------------- Color ---------------- */
+.red{color:red !important;}
+.green{color:green !important;}
+/* ---------------- Align ---------------- */
+.txtac{text-align:center;}
+.txtar{text-align:right;}
+/* ---------------- Width n Height ---------------- */
+.w10{width:10px;}
+.w100{width:100px;}
+.w200{width:200px;}
+.w500{width:500px;}
+
+.h10{height:10px;}
+
+/* ---------------- Clear Both ---------------- */
+.cb{clear:both;}
+/* ---------------- Float ---------------- */
+.fl{float:left;}
+.fr{float:right;}
+/* ---------------- Cursor Pointer ---------------- */
+.cursor{cursor:pointer;}
+
+.table-comm{
+	border: 1px solid #dedede;
+}
+.table-comm th{
+	font-weight:bold;
+	background:#f6f6f6 url(../images/table_title_bg.jpg) repeat-x bottom;
+	padding:3px;
+	border: 1px solid #dedede;
+	text-align:center;
+}
+.table-comm td{
+	padding:3px;
+	border: 1px solid #dedede;
+	text-align:center;
+}
+.table-comm tr:hover{
+	
+}
+#wrapper .ui-widget-header{
+	background:none !important;
+	border:0 !important;
+}
+#wrapper #tabs{
+	background:none !important;
+	border:0 !important;
+}
+#wrapper .ui-tabs-panel{
+	border: 1px solid #dedede;
+	font-family: tahoma;
+}
+#wrapper .viewtable th{
+	text-align:right;
+}
+#wrapper #tabs .ui-state-default{
+	-moz-border-radius:0px;
+	background:none;
+	background: #b6d6ef url(../images/right_blued_strip_blue.gif) repeat-x top;
+	font-family: arial;
+}
+#wrapper #tabs .ui-state-default a{
+	color:#000;
+}
+#wrapper #tabs .ui-tabs-selected{
+	-moz-border-radius:0px;
+	background:none;
+	background-color: #dceaf5;
+}
+#wrapper #tabs .ui-tabs-selected a{
+	color:#000;
+}
+#wrapper .ui-state-active {
+	border: 1px solid #DEDEDE;
+}
+#wrapper .ui-tabs .ui-tabs-panel{
+	padding:7px 10px;
+}
+.button {
+	width:100px;
+	height:25px;
+	background:url(../images/button.png) no-repeat;
+	color:#fff;
+	font-weight:bold;
+	padding:5px 16px;
+	border:none;
+}
+.button a {
+	color:#fff;
+	padding:5px 2px;
+}
+.container_bottom_box {
+	padding:2px 5px;
+}
+.field_value {
+	text-align:left;
+	float:left;
+	margin:5px 5px;		}
+.field_lable {
+	text-align:right;
+	float:left;
+	width:100px;
+	margin:5px 5px;
+}
+
+.paynow-btn {
+	width:80px;
+	height:25px;
+	border:none;
+	cursor:pointer;
+	margin:0 2px;
+}
+.inner_title_div{
+	border-bottom: 1px solid #dedede;
+	padding:5px;
+	font-weight:bold;
+	margin:0 0 4px 0;
+}
+input.button_nor{
+	font-size: 11px;
+	padding:5px 8px;
+	cursor:pointer;
+	background:url(../images/right_blue_strip_blue.gif);
+	border:0;
+	font-weight:bold;
+	color:#fff;
+}
+table.viewtable
+{
+	font-size:11px;
+}
+table.viewtable a
+{
+	text-decoration: underline;
+	color: blue;
+}
+table.viewtable th, table.viewtable td
+{
+	padding: 5px;
+}
+table.viewtable th
+{
+	font-weight: bold;
+}
+table.viewtable tr.altrow
+{
+	background-color: #efefef;
+}
+.msg_error_new{
+	padding:10px 0;
+	font-size:12px;
+	font-weight:normal;
+	color:#000;
+	top:0;
+	left:0;
+	font-family: Arial;
+	text-align:center;
+	background:none repeat scroll 0 0 #FFFF90;
+	border:1px solid #DDDDDD;
+	z-index:99;
+	margin-bottom:5px;
+}
+.warning_inner{
+	background:url("../../images/warning.png") no-repeat scroll 20px 50% transparent;
+	margin:0 auto;
+}
+.left-pane{
+	width:400px;
+	text-align:left;
+	border: 1px solid #DADADA;
+	border-top: none;
+}
+.right-pane{
+	width:400px;
+	text-align:left;
+	border: 1px solid #DADADA;
+	border-top: none;
+}
+.vrrotop{
+	vertical-align:top;
+}
+.base-pane{
+	text-align:left;
+	border: 1px solid #DADADA;
+	border-top: none;
+	width:100%;
+}
+.tabletile-div{
+	font-weight:bold;
+	background:#6F8992;
+	ba/ckground:#f6f6f6 url(../images/table_title_bg.jpg) repeat-x bottom;
+	padding:3px;
+	border: 1px solid #dedede;
+	text-align:center;
+	color:#FFF;
+}
+.marb{
+	margin-bottom:20px;
+}
+.innerscrolldiv table{
+	width : 80%;
+	float: left;
+}
+.billPreview
+{
+	width:20%;
+	float: left;
+}
+.printDiv
+{
+	background-color: #0D83DD;
+	color:#fff;
+	cursor:pointer;
+	width:100px;
+	height:50px;
+	border-radius:8px;
+	line-height:50px;
+	text-align:center;
+	margin:0 auto;
+}
+.itemDivider
+{
+	border:solid 1px #a1b2c3;
+	width : 20%;
+	text-align: center;
+}
+.totalLabel
+{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.totalP
+{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}

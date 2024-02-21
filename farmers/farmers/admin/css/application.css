@@ -1,0 +1,97 @@
+.video_entry
+{
+	border-bottom: 1px dotted #efefef;
+}
+.laser
+{
+	border: 1px solid #cfcfcf;
+	padding: 10px;
+	float:left;
+	clear:both;
+}
+.clearfix
+{
+	clear:both;
+	display:block;
+}
+.video-heading
+{
+	padding:5px;
+	float:left;
+	font-family: Tahoma;
+	font-size:120%;
+	font-weight:bold;
+}
+.thumbnail
+{
+	float:left;
+	clear:left;
+}
+.addedby
+{
+	float:left;
+	color:gray;
+	clear:left;
+}
+.play
+{
+	float: left;
+}
+.description
+{
+	float:left;
+	padding:10px;
+	width: 450px;
+}
+.form-label
+{
+	float: left; 
+	clear: left; 
+	margin-top: 15px;
+	width: 100px;
+	text-align:right;
+	font-size: 11px;
+}
+.form-input
+{
+	float:left;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 11px;
+	border: 0px solid #efefef;
+}
+table.viewtable
+{
+	font-size:11px;
+}
+table.viewtable a
+{
+	text-decoration: underline;
+	color: blue;
+}
+table.viewtable th, table.viewtable td
+{
+	padding: 5px;
+}
+table.viewtable th
+{
+	font-weight: bold;
+}
+table.viewtable tr.altrow
+{
+	background-color: #efefef;
+}
+.view-offer{width:400px;height:auto;border:1px solid;float:left;display:none;}
+.offer-head{background-color:#B6FF9F;text-align:center;padding:2px;}
+.coupon_code{width:378px; height:60px;border:1px solid;margin:5px;float:left;padding:5px;text-align:center;}
+.coupon_title{width:378px; height:90px;border:1px solid;float:left;margin:5px;padding:5px;text-align:center;}
+.coupon_description{width:378px; height:90px;border:1px solid;float:left;margin:5px;padding:5px;text-align:center;}
+.expiration{display:none;}
+.tracking{display:block;}
+#location_map{
+margin-top:10px;
+float:left;
+width:550px;
+height:300px;
+}
+.cb{clear:both;}
